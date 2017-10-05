@@ -11,6 +11,7 @@ import 'rxjs/add/operator/switchMap';
     templateUrl: './post.component.html'
 })
 export class PostComponent implements OnInit {
+  post: Post;
   constructor(
     private postService: PostService,
     private route: ActivatedRoute,
@@ -28,5 +29,4 @@ goBack(): void {
   this.location.back();
 }
 
-  @Input() post: Post;
 }
