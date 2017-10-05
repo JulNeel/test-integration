@@ -1,0 +1,26 @@
+[{
+    "title":"Article 1",
+    "id":"article1",
+    "lead":"Proin iaculis purus consequat sem cure",
+    "excerpt":"Proin iaculis purus consequat sem cure digni. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt",
+    "content":"Proin iaculis purus consequat sem cure digni. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. ",
+    "imageURL":"../dist/images/image.png"
+},
+{
+    "title":"Article 2",
+    "id":"article2",
+    "lead":"Proin iaculis purus consequat sem cure",
+    "excerpt":"Proin iaculis purus consequat sem cure digni. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt",
+    "content":"Proin iaculis purus consequat sem cure digni. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. ",
+    "imageURL":"../dist/images/image.png"
+},
+{
+    "title":"Article 3",
+    "id":"article3",
+    "lead":"Proin iaculis purus consequat sem cure",
+    "excerpt":"Proin iaculis purus consequat sem cure digni. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt",
+    "content":"Proin iaculis purus consequat sem cure digni. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. ",
+    "imageURL":"../dist/images/image.png"
+}
+]
+

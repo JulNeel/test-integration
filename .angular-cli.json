@@ -19,9 +19,22 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css",
+          "./assets/sass/main.scss",
+          "./assets/fonts/stylesheet.css",
+          "./assets/icons/icomoon.scss"
       ],
-      "scripts": [],
+      "stylePreprocessorOptions": {
+        "includePaths": [
+          "style-paths"
+        ]
+      },
+      "scripts": [
+  "../node_modules/jquery/dist/jquery.js",
+  "../node_modules/bootstrap/dist/js/bootstrap.js",
+  "../node_modules/popper.js/dist/popper.js"
+      ],
+
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
