@@ -1,0 +1,31 @@
+.home{
+	ul{
+		list-style-type: none;
+	}
+}
+#lifting{
+	background: url('../images/angular.png');
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position: left top;
+	#lifting-inner{
+		background: url('../images/seastone.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
+.icon-tool {
+	border-radius : 50%;
+	border : 2px solid;
+	width:100px;
+	height: 100px;
+	margin:auto;
+	background: $gray-200;
+	i{
+		position: relative;
+		top:20px;
+	}
+	[class^="icon-"]:before, [class*=" icon-"]:before{
+		font-size:3.5rem;
+	}
+}
