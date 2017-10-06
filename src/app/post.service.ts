@@ -7,7 +7,8 @@ import { Post } from './post';
 
 @Injectable()
 export class PostService {
-private postsUrl = '../assets/posts.json'; 
+private postsUrl = '../assets/posts.json';  
+
 constructor(private http: Http) { }
 
 getPosts(): Promise<Post[]> {
@@ -19,15 +20,15 @@ getPosts(): Promise<Post[]> {
 
 getPost(id: string): Promise<Post> {
   return this.getPosts()
-
              .then(posts => posts.find(post => post.id === id))
              .catch(this.handleError);;
+
 }
 
 
 
 private handleError(error: any): Promise<any> {
-  console.error('An error occurred', error); // for demo purposes only
+  console.error('An error occurred', error);
   return Promise.reject(error.message || error);
 }
 }
