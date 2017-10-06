@@ -4,3 +4,11 @@
 .primary-color{
 	color: $color-primary;
 }
+
+a:hover, a:active, a:focus{
+	text-decoration: none;
+	color:$color-primary;
+	h2{
+		color:$color-primary;
+	}
+}
